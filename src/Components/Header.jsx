@@ -4,7 +4,7 @@ import printSvg from './PrintSvg'
 function Header() {
     return(<div className="Title"> 
      <h1>Mon profil en détail</h1>
-     {printSvg(Linkedin, 'Linkedin_Logo')}
+     <a href="https://www.linkedin.com/in/louis-aubert-118a49176/" target="_blank" rel="noreferrer" >{printSvg(Linkedin, 'Linkedin_Logo')}</a>
     </div>)
 }
 
