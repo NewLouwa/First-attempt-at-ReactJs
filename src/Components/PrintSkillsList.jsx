@@ -5,15 +5,16 @@ import '../Style/SkillsList.css'
 
 function printSkillsLists() {
     
-	return (
-        <ul className='skills-list'>
+	return (  
+        <div className='items-list-container'>
             {skillsList.map(({ id, icon, name, category, lvl ,note }) =>
-	                    <div key={id}>
+	                    (<div className='item-container' key={id}>
 	                        {printSkills({icon,name,category,lvl,note})}
                             <br></br><br></br>
-	                    </div>
+	                    </div>)
             )}
-        </ul>
+        </div>
+
     )
 }
         

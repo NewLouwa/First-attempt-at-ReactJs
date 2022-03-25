@@ -126,7 +126,7 @@ export const skillsList = [
 		category: 'Langue',
 		id: '12an',
 		lvl: "Langue vivantes 1 ( B2/C1 )",
-		note: "Parlé couramment de manière fluides y compris sur des sujets techniques",
+		note: "Parlé couramment de manière fluide y compris sur des sujets techniques",
 		icon: ukFlag
 	},
     {

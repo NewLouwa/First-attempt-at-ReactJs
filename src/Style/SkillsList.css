@@ -1,8 +1,14 @@
-.skill{
-
+.items-list-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.skills-list{
-    text-align: left;
+.item-container{
+    padding : 0.4%;
+    margin : 0.6%;
+    border:  solid 2px black;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .svg{
