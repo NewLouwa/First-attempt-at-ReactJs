@@ -4,7 +4,7 @@ import '../Style/SkillsList.css'
 
 
 function printSkillsLists() {
-    
+
 	return (  
         <div className='items-list-container'>
             {skillsList.map(({ id, icon, name, category, lvl ,note }) =>

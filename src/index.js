@@ -4,6 +4,7 @@ import './Style/index.css';
 import Header from './Components/Header';
 import Profile from './Components/Profile';
 import Competences from './Components/Competences';
+import Languages from './Components/Languages';
 //
 //
 //
@@ -15,6 +16,7 @@ ReactDOM.render(
         <div className="body-container">
           <div className="profile-box"><Profile /></div>
           <div className="skills-box"><Competences /></div>
+          <div className="language-box"><Languages /></div>
         </div>
     </div>
   </React.StrictMode>,

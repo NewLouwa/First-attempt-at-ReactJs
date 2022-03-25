@@ -1,5 +1,4 @@
 import printSvg from '../Components/PrintSvg'
-import printPng from '../Components/PrintPng'
 
 import jsSVG from '../Assets/javascript.svg'
 import htmlSVG from '../Assets/html.svg'
@@ -12,12 +11,6 @@ import powShellSVG from '../Assets/powershell.svg'
 import reactSVG from '../Assets/react.svg'
 import symfonySVG from '../Assets/symfony.svg'
 import nodeSVG from '../Assets/node.svg'
-
-import allPNG from '../Assets/allflag.png'
-import ukPNG from '../Assets/ukflag.png'
-
-const allFlag = printPng(allPNG, 'allemagne_drapeau' )
-const ukFlag = printPng(ukPNG, 'angleterre_drapeau' )
 
 const js = printSvg(jsSVG,'jsLogo')
 const html = printSvg(htmlSVG,'htmlLogo')
@@ -61,7 +54,7 @@ export const skillsList = [
 		name: 'PHP',
 		category: 'Language de développemment Web',
 		id: '4php',
-		lvl: "Confirmé",
+		lvl: "Intermédiaire",
 		note: "note",
 		icon: php
 	},
@@ -101,7 +94,7 @@ export const skillsList = [
 		name: 'Symfony ',
 		category: "Framework",
 		id: '9sy',
-		lvl: 'Basique',
+		lvl: 'Débutant',
 		note: "Framework PHP",
 		icon: symfony
 	},
@@ -121,23 +114,5 @@ export const skillsList = [
 		note: "Framework JavaScript fullstack",
 		icon: node
 	},
-    {
-		name: "Anglais",
-		category: 'Langue',
-		id: '12an',
-		lvl: "Langue vivantes 1 ( B2/C1 )",
-		note: "Parlé couramment de manière fluide y compris sur des sujets techniques",
-		icon: ukFlag
-	},
-    {
-		name: "Allemand",
-		category: 'Langue',
-		id: '13al',
-		lvl: "Langue vivantes 2 ( bases )",
-		note: "Peut s'orienter et demander des renseignemments de base",
-		icon: allFlag
-	}
-
-
 	
 ]

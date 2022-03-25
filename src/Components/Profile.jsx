@@ -3,11 +3,10 @@ function Profile() {
     return( 
     <section className="profile" >
     <h2 className="headProfile">Profil</h2>
-    test<br></br>
-        de<br></br>
-        julien<br></br>
-        à<br></br>
-        nouveau<br></br>
+    test de julien à nouveau <br></br><br></br>
+        modifiez la bdd pour retirer les langues et intégrer à la nouvelle div <br></br>
+        creez la barre de tri <br></br>
+        créer syst de trad
     </section> )
     
 }

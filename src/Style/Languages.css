@@ -1,0 +1,10 @@
+.languages{
+    padding: 12px;
+    color: #3e6b89;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .languages-title{
+    color: #3dd2cc;
+  }
