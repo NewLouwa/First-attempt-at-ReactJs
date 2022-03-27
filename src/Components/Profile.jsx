@@ -4,9 +4,11 @@ function Profile() {
     <section className="profile" >
     <h2 className="headProfile">Profil</h2>
     test de julien à nouveau <br></br><br></br>
-        modifiez la bdd pour retirer les langues et intégrer à la nouvelle div <br></br>
-        creez la barre de tri <br></br>
-        créer syst de trad
+        <br></br>
+        
+        créer syst de trad<br></br>
+        adapter aux mobile <br></br>
+        créer fenetre flottante onhover with more info <br></br>
     </section> )
     
 }

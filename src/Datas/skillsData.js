@@ -28,7 +28,7 @@ const node = printSvg(nodeSVG,'NodeLogo')
 export const skillsList = [
 	{
 		name: 'JavaScript',
-		category: "Language de developpement Web",
+		category: "Language de développement Web",
 		id: '1js',
 		lvl: 'Intermédiaire',
 		note: "note",
@@ -36,7 +36,7 @@ export const skillsList = [
 	},
 	{
 		name: 'HTML',
-		category: 'Language de developpement Web',
+		category: "Language de développement Web",
 		id: '2html',
 		lvl: "Avancé",
 		note: "test",
@@ -44,7 +44,7 @@ export const skillsList = [
 	},
     {
 		name: 'CSS',
-		category: "Language de développemment Web",
+		category: "Language de développement Web",
 		id: '3css',
 		lvl: 'Intermédiaire',
 		note: "note",
@@ -52,7 +52,7 @@ export const skillsList = [
 	},
 	{
 		name: 'PHP',
-		category: 'Language de développemment Web',
+		category: 'Language de développement Web',
 		id: '4php',
 		lvl: "Intermédiaire",
 		note: "note",

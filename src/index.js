@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Profile from './Components/Profile';
 import Competences from './Components/Competences';
 import Languages from './Components/Languages';
+import { useState , useEffect } from 'react'
 //
 //
 //
@@ -14,9 +15,9 @@ ReactDOM.render(
     <div className="main-container">
       <div className="header-box"><Header /> </div>
         <div className="body-container">
+          <div className="language-box"><Languages /></div>
           <div className="profile-box"><Profile /></div>
           <div className="skills-box"><Competences /></div>
-          <div className="language-box"><Languages /></div>
         </div>
     </div>
   </React.StrictMode>,

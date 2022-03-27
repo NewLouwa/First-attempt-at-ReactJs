@@ -1,23 +1,28 @@
 import  {skillsList}  from '../Datas/skillsData'
-import  printSkills  from '../Components/PrintSkills'
-import '../Style/SkillsList.css'
+import Categories from './Categories'
+import {useState} from 'react'
+import PrintSkills from './PrintSkills'
 
 
-function printSkillsLists() {
+function PrintSkillsList(cat) {
+    
+    const activeCategory = cat
+    
 
-	return (  
+	return ( 
         <div className='items-list-container'>
-            {skillsList.map(({ id, icon, name, category, lvl ,note }) =>
-	                    (<div className='item-container' key={id}>
-	                        {printSkills({icon,name,category,lvl,note})}
+            {skillsList.map(({ id, icon, name, category, lvl, note }) => !activeCategory || activeCategory === category ?(
+	                    <div className='item-container' key={id}>
+	                        < PrintSkills icon={icon} name={name} lvl={lvl} note={note} />
                             <br></br><br></br>
-	                    </div>)
+	                    </div>
+                        ) : null
             )}
-        </div>
+    </div> 
 
     )
 }
         
 
 
-export default printSkillsLists
+export default PrintSkillsList
