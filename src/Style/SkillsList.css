@@ -2,12 +2,16 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 }
 .item-container{
+    padding: 1%;
 
 }
+.item-content-logo{
+    color: #3e6b89;
+    padding: 12px;
+    background-color: #464343 ;
 
-.svg{
-
-}
+  }

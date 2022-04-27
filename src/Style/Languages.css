@@ -5,10 +5,12 @@
     justify-content: flex-start;
   }
   .languages-title{
-    align-self: center;
+    
     color: #3dd2cc;
   }
   .item-content{
     color: #3e6b89;
+    padding: 12px;
+    background-color: #464343 ;
 
   }

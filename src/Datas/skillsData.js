@@ -12,17 +12,29 @@ import reactSVG from '../Assets/react.svg'
 import symfonySVG from '../Assets/symfony.svg'
 import nodeSVG from '../Assets/node.svg'
 
-const js = printSvg(jsSVG,'jsLogo')
-const html = printSvg(htmlSVG,'htmlLogo')
-const css = printSvg(cssSVG,'cssLogo')
-const php = printSvg(phpSVG,'phpLogo')
-const python = printSvg(pythonSVG,'pythonLogo')
-const c = printSvg(CSVG,'CLogo')
-const bash = printSvg(bashSVG,'bashLogo')
-const powShell = printSvg(powShellSVG,'PowerShellLogo')
-const react = printSvg(reactSVG,'ReactLogo')
-const symfony = printSvg(symfonySVG,'SymfonyLogo')
-const node = printSvg(nodeSVG,'NodeLogo')
+const s_js = printSvg(jsSVG,'jsLogo','32')
+const s_html = printSvg(htmlSVG,'htmlLogo','32')
+const s_css = printSvg(cssSVG,'cssLogo','32')
+const s_php = printSvg(phpSVG,'phpLogo','32')
+const s_python = printSvg(pythonSVG,'pythonLogo','32')
+const s_c = printSvg(CSVG,'CLogo','32')
+const s_bash = printSvg(bashSVG,'bashLogo','32')
+const s_powShell = printSvg(powShellSVG,'PowerShellLogo','32')
+const s_react = printSvg(reactSVG,'ReactLogo','32')
+const s_symfony = printSvg(symfonySVG,'SymfonyLogo','32')
+const s_node = printSvg(nodeSVG,'NodeLogo','32')
+
+const b_js = printSvg(jsSVG,'jsLogo','64')
+const b_html = printSvg(htmlSVG,'htmlLogo','64')
+const b_css = printSvg(cssSVG,'cssLogo','64')
+const b_php = printSvg(phpSVG,'phpLogo','64')
+const b_python = printSvg(pythonSVG,'pythonLogo','64')
+const b_c = printSvg(CSVG,'CLogo','64')
+const b_bash = printSvg(bashSVG,'bashLogo','64')
+const b_powShell = printSvg(powShellSVG,'PowerShellLogo','64')
+const b_react = printSvg(reactSVG,'ReactLogo','64')
+const b_symfony = printSvg(symfonySVG,'SymfonyLogo','64')
+const b_node = printSvg(nodeSVG,'NodeLogo','64')
 
 
 export const skillsList = [
@@ -32,7 +44,8 @@ export const skillsList = [
 		id: '1js',
 		lvl: 'Intermédiaire',
 		note: "note",
-		icon: js
+		s_icon: s_js,
+		b_icon: b_js
 	},
 	{
 		name: 'HTML',
@@ -40,7 +53,8 @@ export const skillsList = [
 		id: '2html',
 		lvl: "Avancé",
 		note: "test",
-		icon: html
+		s_icon: s_html,
+		b_icon: b_html
 	},
     {
 		name: 'CSS',
@@ -48,7 +62,9 @@ export const skillsList = [
 		id: '3css',
 		lvl: 'Intermédiaire',
 		note: "note",
-		icon: css
+		s_icon: s_css,
+		b_icon: b_css
+
 	},
 	{
 		name: 'PHP',
@@ -56,7 +72,8 @@ export const skillsList = [
 		id: '4php',
 		lvl: "Intermédiaire",
 		note: "note",
-		icon: php
+		s_icon: s_php,
+		b_icon: b_php
 	},
     {
 		name: 'Python',
@@ -64,7 +81,8 @@ export const skillsList = [
 		id: '5py',
 		lvl: 'Intermédiaire',
 		note: "note",
-		icon: python
+		s_icon: s_python,
+		b_icon: b_python
 	},
 	{
 		name: "C / C++",
@@ -72,7 +90,8 @@ export const skillsList = [
 		id: '6c',
 		lvl: "Confirmé",
 		note: "note",
-		icon: c
+		s_icon: s_c,
+		b_icon: b_c
 	},
     {
 		name: 'Bash / GNU Shell',
@@ -80,7 +99,8 @@ export const skillsList = [
 		id: '7ba',
 		lvl: 'Débutant',
 		note: "Interpréteur de commandes Linux",
-		icon: bash
+		s_icon: s_bash,
+		b_icon: b_bash
 	},
 	{
 		name: "PowerShell",
@@ -88,23 +108,26 @@ export const skillsList = [
 		id: '8ps',
 		lvl: "En apprentissage",
 		note: "Interpréteur de commandes / Scripts",
-		icon: powShell
+		s_icon: s_powShell,
+		b_icon: b_powShell
 	},
     {
 		name: 'Symfony ',
 		category: "Framework",
 		id: '9sy',
-		lvl: 'Débutant',
+		lvl: "Débutant",
 		note: "Framework PHP",
-		icon: symfony
+		s_icon: s_symfony,
+		b_icon: b_symfony
 	},
 	{
 		name: "React.js",
 		category: 'Framework',
 		id: '10rj',
-		lvl: "Intermédiaire",
+		lvl: "Débutant",
 		note: "Framework JavaScript",
-		icon: react
+		s_icon: s_react,
+		b_icon: b_react
 	},
     {
 		name: "Node.js",
@@ -112,7 +135,8 @@ export const skillsList = [
 		id: '11nj',
 		lvl: "En apprentissage",
 		note: "Framework JavaScript fullstack",
-		icon: node
+		s_icon: s_node,
+		b_icon: b_node
 	},
 	
 ]

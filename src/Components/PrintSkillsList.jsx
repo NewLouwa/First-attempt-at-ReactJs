@@ -1,7 +1,5 @@
 import  {skillsList}  from '../Datas/skillsData'
-import Categories from './Categories'
-import {useState} from 'react'
-import PrintSkills from './PrintSkills'
+import PrintSkillsButton from './PrintSkillsButton'
 
 
 function PrintSkillsList(cat) {
@@ -11,9 +9,9 @@ function PrintSkillsList(cat) {
 
 	return ( 
         <div className='items-list-container'>
-            {skillsList.map(({ id, icon, name, category, lvl, note }) => !activeCategory || activeCategory === category ?(
+            {skillsList.map(({ id, b_icon, s_icon, name, category, lvl, note }) => !activeCategory || activeCategory === category ?(
 	                    <div className='item-container' key={id}>
-	                        < PrintSkills icon={icon} name={name} lvl={lvl} note={note} />
+	                        {PrintSkillsButton(b_icon, name, lvl, note)}
                             <br></br><br></br>
 	                    </div>
                         ) : null
