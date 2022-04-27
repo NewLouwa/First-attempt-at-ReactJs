@@ -2,13 +2,20 @@
     display: flex;
     flex-direction: row;
     padding: 12px;
-    justify-content: flex-start;
+    margin: 8px;
   }
   .languages-title{
-    
+    text-align: center;
     color: #3dd2cc;
   }
-  .item-content{
+  .item-content-languages{
+    height: fit-content;
+    width: fit-content;
+
+    border:  solid 1px black;
+    border-bottom: solid 5px black;
+    border-left: solid 3px black;
+    border-radius: 10px;
     color: #3e6b89;
     padding: 12px;
     background-color: #464343 ;

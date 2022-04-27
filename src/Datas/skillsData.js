@@ -43,7 +43,7 @@ export const skillsList = [
 		category: "Language de développement Web",
 		id: '1js',
 		lvl: 'Intermédiaire',
-		note: "note",
+		note: "",
 		s_icon: s_js,
 		b_icon: b_js
 	},
@@ -52,7 +52,7 @@ export const skillsList = [
 		category: "Language de développement Web",
 		id: '2html',
 		lvl: "Avancé",
-		note: "test",
+		note: "",
 		s_icon: s_html,
 		b_icon: b_html
 	},
@@ -61,7 +61,7 @@ export const skillsList = [
 		category: "Language de développement Web",
 		id: '3css',
 		lvl: 'Intermédiaire',
-		note: "note",
+		note: "",
 		s_icon: s_css,
 		b_icon: b_css
 
@@ -71,7 +71,7 @@ export const skillsList = [
 		category: 'Language de développement Web',
 		id: '4php',
 		lvl: "Intermédiaire",
-		note: "note",
+		note: "",
 		s_icon: s_php,
 		b_icon: b_php
 	},
@@ -80,7 +80,7 @@ export const skillsList = [
 		category: "Language de programmation",
 		id: '5py',
 		lvl: 'Intermédiaire',
-		note: "note",
+		note: "",
 		s_icon: s_python,
 		b_icon: b_python
 	},
@@ -89,7 +89,7 @@ export const skillsList = [
 		category: 'Language de programmation',
 		id: '6c',
 		lvl: "Confirmé",
-		note: "note",
+		note: "",
 		s_icon: s_c,
 		b_icon: b_c
 	},
@@ -98,7 +98,7 @@ export const skillsList = [
 		category: "Interpréteur de commandes",
 		id: '7ba',
 		lvl: 'Débutant',
-		note: "Interpréteur de commandes Linux",
+		note: "Interpréteur de commandes",
 		s_icon: s_bash,
 		b_icon: b_bash
 	},

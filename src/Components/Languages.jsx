@@ -16,9 +16,9 @@ function Languages() {
         <h2 className='languages-title'>Langues </h2>
         
         <div className='flex-container-languages'>
-        <div className="item-content" >  {frFlag}  Francais <br></br> Langue natale <br></br> Peut lire des textes complexes (ex: documentation technique) les comprendre et les ré-expliquer</div><br></br>
-        <div className="item-content" >  {enFlag}  Anglais <br></br> Langue vivantes 1 ( B2/C1 ) <br></br> Peut lire des textes complexes (ex: documentation technique) les comprendre et les ré-expliquer</div><br></br>
-        <div className="item-content" >  {allFlag}  Allemand <br></br> Langue vivantes 2 <br></br> Peut s'orienter et demander des renseignemments de base</div><br></br>
+        <div className="item-content-languages" >  {frFlag}  Francais <br></br> Langue natale <br></br> Peut lire des textes complexes (ex: documentation technique) les comprendre et les ré-expliquer</div><br></br>
+        <div className="item-content-languages" >  {enFlag}  Anglais <br></br> Langue vivantes 1 ( B2/C1 ) <br></br> Peut lire des textes complexes (ex: documentation technique) les comprendre et les ré-expliquer</div><br></br>
+        <div className="item-content-languages" >  {allFlag}  Allemand <br></br> Langue vivantes 2 <br></br> Peut s'orienter et demander des renseignemments de base</div><br></br>
         </div>
         
         </section>)

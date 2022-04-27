@@ -1,5 +1,5 @@
 import  {skillsList}  from '../Datas/skillsData'
-import PrintSkillsButton from './PrintSkillsButton'
+import PrintSkills from './PrintSkills'
 
 
 function PrintSkillsList(cat) {
@@ -11,7 +11,7 @@ function PrintSkillsList(cat) {
         <div className='items-list-container'>
             {skillsList.map(({ id, b_icon, s_icon, name, category, lvl, note }) => !activeCategory || activeCategory === category ?(
 	                    <div className='item-container' key={id}>
-	                        {PrintSkillsButton(b_icon, name, lvl, note)}
+	                        {PrintSkills(b_icon, s_icon, name, lvl, note)}
                             <br></br><br></br>
 	                    </div>
                         ) : null
