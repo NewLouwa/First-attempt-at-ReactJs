@@ -1,4 +1,8 @@
-{
+{ "homepage": "https://NewLouwa.github.io/first-attempt-in reactjs",
+  "description": "A simple reactjs app",
+  "name": "first-attempt-in reactjs",
+  "language": "JavaScript",
+  "license": "MIT",
   "name": "profil",
   "version": "0.1.0",
   "private": true,
