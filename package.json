@@ -1,9 +1,9 @@
-{ "homepage": "https://NewLouwa.github.io/first-attempt-in reactjs",
+{
+  "homepage": "https://NewLouwa.github.io/first-attempt-in-reactjs",
   "description": "A simple reactjs app",
-  "name": "first-attempt-in reactjs",
+  "name": "first-attempt-in-reactjs",
   "language": "JavaScript",
   "license": "MIT",
-  "name": "profil",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
